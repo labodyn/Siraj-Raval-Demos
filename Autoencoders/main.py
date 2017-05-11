@@ -46,6 +46,7 @@ trX, trY, teX, teY = mnist.train.images, mnist.train.labels, mnist.test.images, 
 
 # Launch the graph in a session
 with tf.Session() as sess:
+
     # you need to initialize all variables
     tf.initialize_all_variables().run()
 
